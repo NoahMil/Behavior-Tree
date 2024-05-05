@@ -199,6 +199,9 @@ namespace Noah_Behavior_Tree.Scripts
 
             Node feed = new Feed();
             feedingSequence.Children.Add(feed);
+
+            Node wander = new Wander();
+            _rootNode.Children.Add(wander);
         }
 
         public static void UpdateDrinkingAreas(GameObject[] availableDrinkingAreas, AICategory category)
