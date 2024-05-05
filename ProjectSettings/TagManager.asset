@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Water
+  - Food Chicken
+  - Food Dog
+  - Sheep
+  - Chicken
+  - Pig
+  - Cow
+  - Bed
+  - Female Dog
+  - Female Chicken
   layers:
   - Default
   - TransparentFX
