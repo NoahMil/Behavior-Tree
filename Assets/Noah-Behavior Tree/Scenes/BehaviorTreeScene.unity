@@ -5395,7 +5395,8 @@ PrefabInstance:
       propertyPath: IsThirsty
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6291341466974966663, guid: 27325f25a349a9c4db2f2796061d6ac9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8205,6 +8206,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 56064850}
     m_Modifications:
+    - target: {fileID: 7910035407892958660, guid: 06645c5eec5c2c545aba96eb0e696d95, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9066948573365675826, guid: 06645c5eec5c2c545aba96eb0e696d95, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1999999
@@ -8257,7 +8262,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7910035407892958660, guid: 06645c5eec5c2c545aba96eb0e696d95, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
